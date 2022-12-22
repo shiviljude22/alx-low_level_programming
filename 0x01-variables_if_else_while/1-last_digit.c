@@ -7,6 +7,7 @@
  * @n>5: the string and is greater than 5
  * @n=0: the string and is 0
  * @n<6 and not 0: the string and is less than 6 and not 0
+ * Return: 0
  */
 int main(void)
 {
@@ -16,7 +17,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	x = n % 10;
-	printf("Last digit of %d is %d", n, x);
+	printf("Last digit of %d is %d ", n, x);
 	if (x > 5)
 	{
 		printf("and is greater than 5");
