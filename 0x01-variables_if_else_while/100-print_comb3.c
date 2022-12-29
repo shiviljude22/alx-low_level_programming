@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - this program prints all possible different combinations of two digits
- * @01 and 02: the considered combinations
- * print only the smallest combinaiton in ascending order.
- * Return: return 0 (success)
+ * main - prints all possible different combinations of two digits
+ * 01 and 10 are considered the same combination of the two digits 0 and 1
+ * print only the smallest combinaiton in ascending order
+ * Return: return 0
  */
 int main(void)
 {
